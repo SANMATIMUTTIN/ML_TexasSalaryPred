@@ -6,7 +6,7 @@ Project Overview
 This project focuses on analyzing salary data of employees across 113 state government agencies in Texas. 
 The goal is to provide actionable insights, build a predictive model to estimate payroll information, and address key business questions related to wage disparities and salary trends. 
 The analysis is designed to aid the Texas state government in making informed payroll management decisions.
-
+________________________________________
 
 Tasks and Deliverables
 
@@ -34,7 +34,7 @@ Task 3: Business Questions
 •	Analyzed departments/roles with the largest wage disparities between managers and employees.
 
 •	Explored temporal changes in salaries and compensations across roles, departments, and headcounts.
-
+________________________________________
 Dataset Information
 
 The dataset includes salary information for positions at all 113 state agencies in Texas, obtained via the Texas Public Information Act.
@@ -52,7 +52,7 @@ Key attributes in the dataset include:
 
 •	Other: State Number
 
-
+________________________________________
 Analysis and Insights
 
 Key Findings
@@ -75,6 +75,7 @@ o	Salaries and compensations for certain departments increased significantly ove
 
 o	Identified roles with stagnant or declining salaries.
 
+________________________________________
 Predictive Modeling
 
 Model Development
@@ -98,11 +99,11 @@ Model Comparison
 •	Evaluation Metrics: Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), R-squared (R²).
 
 •	Best Model: Random Forest Regressor performed the best, offering a good balance between accuracy and generalization.
-
+________________________________________
 Recommendation:
 
 The Random Forest Regressor is suggested for production due to its robustness and performance on unseen data.
-
+________________________________________
 Challenges Faced and Solutions
 
 Challenges
@@ -126,7 +127,7 @@ o	Addressed class imbalance in categorical features using SMOTE or re-sampling t
 5.	Model Overfitting:
     
 o	Regularized models using hyperparameter tuning to avoid overfitting on the training data.
-
+________________________________________
 Tools and Techniques Used
 
 •	Data Analysis: Python (pandas, NumPy, Matplotlib, Seaborn)
@@ -134,7 +135,7 @@ Tools and Techniques Used
 •	Predictive Modeling: Scikit-learn, XGBoost
 
 •	Statistical Techniques: Z-scores, IQR for outlier detection, Pearson correlation for feature relationships
-
+________________________________________
 Results and Recommendations
 
 •	Outliers should be reviewed and investigated for errors or exceptional cases.
@@ -142,4 +143,7 @@ Results and Recommendations
 •	Departments with significant wage disparities should be assessed for fairness and transparency in payroll.
 
 •	The Random Forest model can be integrated into government systems for payroll estimation and budget planning.
+
+
+
 
